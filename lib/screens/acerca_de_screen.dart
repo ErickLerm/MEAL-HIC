@@ -16,19 +16,19 @@ class _AcercaDeScreenState extends State<AcercaDeScreen> {
 
   final List<Map<String, String>> contactos = const [
     {
-      'nombre': 'Dr. Nombre Apellido',
+      'nombre': 'Lic. Sara Fajardo',
       'cargo': 'Médico Nutriólogo',
-      'correo': 'correo1@hospitalinfantil.mx',
+      'correo': 'Nutricion@hospitalinfantil.org',
     },
     {
-      'nombre': 'Lic. Nombre Apellido',
+      'nombre': 'Lic. Carolina González ',
       'cargo': 'Nutrióloga',
-      'correo': 'correo2@hospitalinfantil.mx',
+      'correo': 'Nutricion2@hospitalinfantil.org',
     },
     {
-      'nombre': 'Lic. Nombre Apellido',
+      'nombre': 'Lic. Rodrigo Morgado',
       'cargo': 'Médico Nutriólogo',
-      'correo': 'correo3@laboratoriodigital.net',
+      'correo': 'Nutricionpp@hospitalinfantil.org',
     },
   ];
 
@@ -93,7 +93,7 @@ class _AcercaDeScreenState extends State<AcercaDeScreen> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(c['nombre']!, style: AppTextStyles.titulo3),
-                                    Text(c['cargo']!, style: const TextStyle(fontSize: 13, color: Colors.grey)),
+                                    //Text(c['cargo']!, style: const TextStyle(fontSize: 13, color: Colors.grey)),
                                     GestureDetector(
                                       onTap: () => launchUrl(Uri.parse('mailto:${c['correo']}')),
                                       child: Text(
