@@ -29,7 +29,7 @@ class ProgresoDia extends StatelessWidget {
       return EstadoComida.completo;
     }
 
-    return EstadoComida.enProgreso;
+    return EstadoComida.completo;
   }
 
   Color _colorEstado(EstadoComida estado) {

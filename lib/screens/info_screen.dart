@@ -20,12 +20,12 @@ final List<Map<String, dynamic>> secciones = [
     "textoLargo": """
     El Plato del Bien Comer es una representación gráfica creada para orientar a las personas sobre cómo deben distribuir los alimentos en sus comidas diarias. Está pensado principalmente en la población mexicana.
 
-    El Plato del Bien Comer actual se divide en cuatro grupos principales:
+    El Plato del Bien Comer actual se divide en cinco grupos principales:
 
     🍅 Frutas y Verduras.
-    🍞 Granos y cereales: 
-    🫘 Leguminosas: 
-    🥩 Origen animal: 
+    🍞 Granos y cereales. 
+    🫘 Leguminosas.
+    🥩 Origen animal. 
     🥑 Aceites y grasas saludables.
 
     El Plato del Bien Comer es de suma importancia porque nos permite llevar una dieta equilibrada y variada, lo que es esencial para mantener una buena salud. 
