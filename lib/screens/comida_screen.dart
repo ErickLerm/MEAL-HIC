@@ -631,10 +631,13 @@ class _ComidaScreenState extends State<ComidaScreen> {
                                   anchoMaximoTarjeta >= 720 &&
                                   anchoMaximoTarjeta > altoDisponible;
 
+                              final double factorBebida = celularCompacto
+                                  ? 0.24
+                                  : (altoDisponible < 650 ? 0.28 : 0.20);
+
                               final double tamanoZonaBebida = pantallaHorizontal
                                   ? math.min(altoDisponible * 0.85, 260.0)
-                                  : altoDisponible *
-                                        (celularCompacto ? 0.24 : 0.20);
+                                  : altoDisponible * factorBebida;
 
                               final double espacioEntrePlatoYBebida =
                                   pantallaHorizontal ? 0.0 : 6.0;
