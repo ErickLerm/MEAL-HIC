@@ -1,6 +1,6 @@
 {
-    "name": "Bitacora Nutricional",
-    "short_name": "Bitacora Nutricional",
+    "name": "MEAL-HIC",
+    "short_name": "MEAL-HIC",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#FE797B",

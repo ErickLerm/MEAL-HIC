@@ -247,6 +247,16 @@ Future<Uint8List> construirPDF({
           pw.SizedBox(height: 16),
 
           pw.Text(
+            'MEAL-HIC',
+            style: pw.TextStyle(
+              fontSize: 16,
+              fontWeight: pw.FontWeight.bold,
+            ),
+          ),
+
+          pw.SizedBox(height: 6),
+
+          pw.Text(
             'Reporte nutricional',
             style: pw.TextStyle(
               fontSize: 22,

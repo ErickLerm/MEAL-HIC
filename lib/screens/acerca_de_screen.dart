@@ -161,7 +161,7 @@ class _AcercaDeScreenState extends State<AcercaDeScreen> {
                         const SizedBox(height: 8),
                         Center(
                           child: Text(
-                            '© 2026 Hospital Infantil. v0.4',
+                            '© 2026 Hospital Infantil. v0.92',
                             style: const TextStyle(fontSize: 12, color: Colors.grey),
                             textAlign: TextAlign.center,
                           ),

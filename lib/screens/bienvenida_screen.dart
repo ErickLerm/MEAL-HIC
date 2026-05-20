@@ -72,10 +72,11 @@ class _BienvenidaScreenState extends State<BienvenidaScreen> {
         child: Topbar(),
       ),
 
-      body: Center(
+      body: Align(
+        alignment: Alignment.topCenter,
         child: ConstrainedBox(
           constraints: const BoxConstraints(
-            maxWidth: 500, // 👈 límite web/tablet
+            maxWidth: 500, 
           ),
 
           child: SingleChildScrollView(
@@ -102,7 +103,7 @@ class _BienvenidaScreenState extends State<BienvenidaScreen> {
                           children: const [
                             Flexible(
                               child: Text(
-                                'Bienvenido a tu Bitácora Nutricional',
+                                '¡Bienvenido a MEAL-HIC!',
                                 style: AppTextStyles.titulo1,
                                 textAlign: TextAlign.center,
                                 maxLines: 2,
@@ -110,6 +111,14 @@ class _BienvenidaScreenState extends State<BienvenidaScreen> {
                               ),
                             ),
                           ],
+                        ),
+
+                        const SizedBox(height: 6),
+
+                        const Text(
+                          'Registra tu alimentación diaria y lleva\nel control de tu nutrición de forma fácil',
+                          style: AppTextStyles.titulo3,
+                          textAlign: TextAlign.center,
                         ),
 
                         const SizedBox(height: 10),
