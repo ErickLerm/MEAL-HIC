@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "bitacora-nutricional"
-  }
+    "default": "bitacora-nutricional",
+    "mealhic": "meal-hic"
+  },
+  "targets": {},
+  "etags": {}
 }
